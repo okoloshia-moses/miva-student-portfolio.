@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Moses Godday Okoloshia — Data Analyst and MIVA Open University Data Science student portfolio."
+    />
+    <title>Contact | Okoloshias Folio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="Okoloshias Folio homepage"
+          ><span class="brand-mark" aria-hidden="true">◆</span
+          ><span>Okoloshias Folio<small>MIVA Open University</small></span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html" class="">Home</a
+          ><a href="about.html" class="">About Me</a
+          ><a href="projects.html" class="">Projects</a
+          ><a href="planner.html" class="">Academic Planner</a
+          ><a href="contact.html" class="active" aria-current="page">Contact</a>
+        </nav>
+        <a class="nav-cta" href="contact.html">Let's Talk ↗</a>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow">➤ &nbsp; CONTACT ME</span>
+          <h1>Let's <span class="gold">Connect</span></h1>
+          <p>
+            Have a question, a project idea, or an opportunity to collaborate?
+            I'd love to hear from you. Send me a message using the form below.
+          </p>
+        </div>
+      </section>
+      <section class="section container">
+        <div class="contact-layout">
+          <section class="contact-panel">
+            <h2>✉ &nbsp; Send Me a Message</h2>
+            <form id="contact-form" novalidate>
+              <div class="contact-fields">
+                <div class="field">
+                  <label for="full-name"
+                    >Full Name <span class="required">*</span></label
+                  ><input
+                    id="full-name"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    placeholder="Enter your full name"
+                    required
+                  /><small class="field-error" id="name-error"></small>
+                </div>
+                <div class="field">
+                  <label for="email"
+                    >Email Address <span class="required">*</span></label
+                  ><input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    placeholder="Enter your email address"
+                    required
+                  /><small class="field-error" id="email-error"></small>
+                </div>
+                <div class="field">
+                  <label for="phone"
+                    >Phone Number <span class="required">*</span></label
+                  ><input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    inputmode="numeric"
+                    autocomplete="tel"
+                    placeholder="Digits only"
+                    required
+                  /><small class="field-error" id="phone-error"></small>
+                </div>
+                <div class="field">
+                  <label for="subject">Subject</label
+                  ><select id="subject" name="subject">
+                    <option value="">Select a subject (optional)</option>
+                    <option>General Enquiry</option>
+                    <option>Project Collaboration</option>
+                    <option>Professional Opportunity</option>
+                    <option>Academic Enquiry</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label for="message"
+                    >Message <span class="required">*</span></label
+                  ><textarea
+                    id="message"
+                    name="message"
+                    placeholder="Type your message here..."
+                    required
+                  ></textarea
+                  ><small class="field-error" id="message-error"></small>
+                </div>
+              </div>
+              <button
+                class="btn"
+                style="width: 100%; margin-top: 18px"
+                type="submit"
+              >
+                ➤ &nbsp; Send Message
+              </button>
+              <div
+                id="contact-feedback"
+                class="form-feedback"
+                role="status"
+                aria-live="polite"
+              ></div>
+            </form>
+          </section>
+          <aside class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>
+              Use the form to reach out about projects, learning, collaboration
+              or professional opportunities.
+            </p>
+            <div class="contact-item">
+              <strong>✉ &nbsp; Email</strong
+              ><small>Add your preferred email address here</small>
+            </div>
+            <div class="contact-item">
+              <strong>☎ &nbsp; Phone</strong
+              ><small>Add your preferred phone number here</small>
+            </div>
+            <div class="contact-item">
+              <strong>⌖ &nbsp; Location</strong><small>Nigeria</small>
+            </div>
+            <h2 style="margin-top: 25px">Connect With Me</h2>
+            <div class="socials">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn"
+                >in</a
+              ><a
+                href="https://github.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="GitHub"
+                >GH</a
+              ><a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="YouTube"
+                >▶</a
+              >
+            </div>
+          </aside>
+        </div>
+      </section>
+      <section class="section container">
+        <h2 class="section-title">A Little More About My Work</h2>
+        <p class="section-lead">
+          This portfolio includes a short multimedia demonstration and an audio
+          interface sample to demonstrate HTML media elements.
+        </p>
+        <div class="multimedia">
+          <div class="media-box">
+            <h3>Portfolio visual</h3>
+            <video controls preload="metadata" poster="images/video-poster.svg">
+              <source
+                src="https://youtu.be/MiiANxRHSv4?si=iVttCCVdxwl3XN5W"
+                type="video/mp4"
+              />
+              Your browser does not support HTML video.</video
+            ><small style="color: #b9c9e2"
+              >Sample HTML5 video demonstration. Replace with your own portfolio
+              introduction video.</small
+            >
+          </div>
+          <div class="media-box">
+            <h3>Audio element demonstration</h3>
+            <p style="color: #c8d8ef">
+              A short original interface notification tone demonstrating HTML
+              audio controls.
+            </p>
+            <audio controls preload="metadata">
+              <source src="https://open.spotify.com/episode/3yRvQY7wVtJTiiyzsj5jYa?si=iEWZfu6JS1SsiDDQ5fR5BA" type="audio/wav" />
+              Your browser does not support HTML audio.
+            </audio>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 OM Portfolio. Academic portfolio for MIVA Open University.</p>
+        <div class="socials" aria-label="Social links">
+          <a
+            href="https://www.linkedin.com/in/okoloshiamoses/"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+            >in</a
+          ><a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+            >GH</a
+          ><a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="YouTube"
+            >▶</a
+          ><a href="okoloshia@gmail.com" aria-label="Email">✉</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
