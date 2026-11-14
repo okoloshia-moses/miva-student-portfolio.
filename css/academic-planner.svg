@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#07152f"/><stop offset="1" stop-color="#0752a5"/></linearGradient></defs>
+<rect width="900" height="520" rx="28" fill="url(#b)"/><rect x="28" y="28" width="844" height="464" rx="20" fill="#f7faff"/>
+<rect x="28" y="28" width="844" height="82" rx="20" fill="#0a1d3d"/><text x="66" y="80" fill="#fff" font-size="30" font-family="Arial" font-weight="bold">MY ACADEMIC TASKS</text>
+<g font-family="Arial" fill="#102449"><text x="68" y="158" font-size="20" font-weight="bold">TASK</text><text x="650" y="158" font-size="20" font-weight="bold">DUE DATE</text></g>
+<g font-family="Arial" font-size="22" fill="#172c4f"><rect x="58" y="178" width="784" height="68" rx="12" fill="#eaf2ff"/><circle cx="92" cy="212" r="13" fill="#16a36a"/><path d="M85 212l5 5 10-12" fill="none" stroke="#fff" stroke-width="4"/><text x="124" y="220">Review data analysis notes</text><text x="650" y="220">Nov 18, 2026</text>
+<rect x="58" y="260" width="784" height="68" rx="12" fill="#eaf2ff"/><circle cx="92" cy="294" r="13" fill="none" stroke="#0b76df" stroke-width="4"/><text x="124" y="302">Complete programming assignment</text><text x="650" y="302">Nov 21, 2026</text>
+<rect x="58" y="342" width="784" height="68" rx="12" fill="#eaf2ff"/><circle cx="92" cy="376" r="13" fill="none" stroke="#0b76df" stroke-width="4"/><text x="124" y="384">Prepare project presentation</text><text x="650" y="384">Nov 25, 2026</text></g>
+<rect x="58" y="435" width="260" height="34" rx="17" fill="#ffbd27"/><text x="188" y="458" text-anchor="middle" font-family="Arial" font-size="16" fill="#081b3b" font-weight="bold">+ ADD A NEW TASK</text></svg>
